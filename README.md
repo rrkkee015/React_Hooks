@@ -60,3 +60,4 @@ const App = () => {
 ```
 - class component는 메뉴얼하게 하나하나 적어야했는데, 그럴 필요가 없는게 장점
   - Effect Hook이라는 것도 있는데, component did mount, did update와 유사하다. 이들은 주로 API에서 데이터를 요청할 때 사용한다.
+  - useEffect는 ComponentDidMount, ComponentWillUnMount, ComponentDidUpdate이다.
